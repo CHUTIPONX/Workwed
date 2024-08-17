@@ -1,11 +1,12 @@
 import Image from "next/image";
+import styles from './Navbar.module.css'; // สมมติว่าไฟล์ CSS ของคุณชื่อ Navbar.module.css
 
 export default function Navbar() {
   return (
     <>
       <div
         id="carouselExampleAutoplaying"
-        className="carousel slide"
+        className={`carousel slide ${styles.carouselContainer}`}
         data-bs-ride="carousel"
       >
         <div className="carousel-inner">
@@ -62,4 +63,3 @@ export default function Navbar() {
     </>
   );
 }
- 
