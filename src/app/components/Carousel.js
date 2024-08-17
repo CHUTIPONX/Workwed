@@ -1,6 +1,5 @@
 import Image from "next/image";
-import styles from './Navbar.module.css'; // สมมติว่าไฟล์ CSS ของคุณชื่อ Navbar.module.css
-
+import styles from './Navbar.module.css';
 export default function Navbar() {
   return (
     <>
