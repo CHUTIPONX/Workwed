@@ -1,11 +1,11 @@
 import Image from "next/image";
-import styles from './Navbar.module.css';
+
 export default function Navbar() {
   return (
     <>
       <div
         id="carouselExampleAutoplaying"
-        className={`carousel slide ${styles.carouselContainer}`}
+        className="carousel slide"
         data-bs-ride="carousel"
       >
         <div className="carousel-inner">
